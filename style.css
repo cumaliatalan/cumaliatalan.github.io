@@ -1,7 +1,26 @@
 body {
     font-family: system-ui;
-    background: #f06d06;
+    background-color: turquoise;
     color: white;
     text-align: center;
   }
-  
+
+h1 {
+    text-align: center; 
+    color: red; 
+    font-size: 300%; 
+    border: 3px solid tomato;
+}
+
+p {
+    text-align: center; 
+    color: orangered;
+    border: 2px solid blueviolet;
+    padding: 2px;
+    margin: 50px;
+}
+
+a {
+    text-align: center; 
+    color: blue;
+}
