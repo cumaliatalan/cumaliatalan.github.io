@@ -2,30 +2,48 @@
 <html>
 
 <head>
-  <title>Cumali Atalan</title>
-  <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="author" content="Cumali Atalan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
 </head>
 
+<title>Cumali Atalan</title>
+
 <body>
-    
-    <h1><b>Cumali Atalan</b></h1>
 
-    <p><b>Construction Zone</p>
+  <h2 id="uppage"></h2>
+  <h1 id="myHeader">Cumali Atalan</h1>
+
+  <button onclick="displayResult()">Change text</button>
+
+  <script>
+
+    function displayResult() {
+      document.getElementById("myHeader").innerHTML = "Bilgisayar Mühendisi";
+      document.getElementById("myHeader").style.fontSize = "25px"; 
+      document.getElementById("myHeader").style.color = "red";
+      document.getElementById("myHeader").style.backgroundColor = "yellow";        
+    }
+  </script>
+
+  <p><b>Construction Zone</p>
   
-    <p><b>No Entry!!!</b></p>
+  <p><b>No Entry!!!</b></p>
 
-    <a href="default.asp"></a>
+  <a href="default.asp"></a>
     
-    <a href="https://www.instagram.com/cumali.atalan" title="Instagram" target="_blank"><img src="instagram.png" alt="Instagram" style="width:42px; height:42px; color: transparent;"></a>
-    <a href="https://twitter.com/AtalanCumali" title="Twitter" target="_blank"><img src="twitter.jpg" alt="Twitter" style="width:42px; height:42px; color: transparent;"></a>
-    <a href="https://www.linkedin.com/in/cumaliatalan/" title="LinkedIn" target="_blank"><img src="linkedin.jpg" alt="LinkedIn" style="width:42px; height:42px; color: transparent;"></a>
-    <a href="https://github.com/cumaliatalan" title="GitHub" target="_blank"><b><img src="github.png" alt="GitHub" style="width:42px; height:42px; color: transparent;"></a>
-    <a href="https://www.w3schools.com/html/html_favicon.asp" title="Burda Kalmıştık" target="_blank" >Nerde Kalmıştık??</a>
-
-    <p><a href="mailto:cumaliatalan97@gmail.com" title="Ask me">Send email</a></p>
-
+  <a href="https://www.instagram.com/cumali.atalan" title="Instagram" target="_blank"><img src="instagram.png" alt="Instagram" style="width:42px; height:42px; color: transparent;"></a>
+  <a href="https://twitter.com/AtalanCumali" title="Twitter" target="_blank"><img src="twitter.jpg" alt="Twitter" style="width:42px; height:42px; color: transparent;"></a>
+  <a href="https://www.linkedin.com/in/cumaliatalan/" title="LinkedIn" target="_blank"><img src="linkedin.jpg" alt="LinkedIn" style="width:42px; height:42px; color: transparent;"></a>
+  <a href="https://github.com/cumaliatalan" title="GitHub" target="_blank"><b><img src="github.png" alt="GitHub" style="width:42px; height:42px; color: transparent;"></a>
+  <a href="https://www.w3schools.com/html/html_head.asp" title="Burda Kalmıştık" target="_blank" >Nerde Kalmıştık??</a>
+  
+  <p><a href="mailto:cumaliatalan97@gmail.com" title="Ask me">Send email</a></p>
+  <p><a href="#uppage">up page</a></p>
 </body>
 
 </html>
