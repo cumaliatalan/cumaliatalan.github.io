@@ -2,7 +2,7 @@
     background-color: lightblue;
     color: red;
     text-align: center;
-    font-size: 300%; 
+    font-size: 4vw; 
 }
 
 body {
@@ -15,12 +15,13 @@ body {
 h1 {
     text-align: center; 
     color: red; 
-    font-size: 100%; 
+    font-size: 5vw; 
     border: 3px solid tomato;
     
 }
 
 p {
+    font-size: vw;
     text-align: center; 
     color: orangered;
     border: 2px solid blueviolet;
