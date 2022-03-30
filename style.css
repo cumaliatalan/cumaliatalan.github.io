@@ -1,35 +1,118 @@
+*{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(231, 224, 224);
+}
+
+
+header{
+    text-align: center;
+    font-size: 4vw;
+    height: 80px;
+    background: linear-gradient(90deg, white, blueviolet);
+    margin: auto;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    margin-top: 4%;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_box{
+    width: 35%;
+    background-color: turquoise;
+}
+
+.right_box{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.in_box{
+    width: 40%;
+    height: 45%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo_box{
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.logo_box:hover {
+    opacity: 1;
+}
+
+a {
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: gray;
+    height: 110px;
+    width: 100%;
+    margin-top: 82px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.fa-instagram {    
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-github {
+  background: #333;
+  color: white;
+}
 #myHeader {
     background-color: lightblue;
     color: red;
     text-align: center;
     font-size: 4vw; 
-}
-
-body {
-    font-family: system-ui;
-    background-color: turquoise;
-    color: white;
-    text-align: center;
-  }
-
-h1 {
-    text-align: center; 
-    color: red; 
-    font-size: 5vw; 
-    border: 3px solid tomato;
-    
-}
-
-p {
-    font-size: vw;
-    text-align: center; 
-    color: orangered;
-    border: 2px solid blueviolet;
-    padding: 2px;
-    margin: 50px;
-}
-
-a {
-    text-align: center; 
-    color: blue;
 }
