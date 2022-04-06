@@ -7,6 +7,16 @@
 
 }
 
+.hero{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../cumaliatalan.github.io/IMG_4054.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -18,15 +28,7 @@ body{
     padding: 0px 20px;
 }
 
-.hero{
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../cumaliatalan.github.io/IMG_4054.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
+
 
 header{
     padding: 40px 0 30px;
