@@ -59,7 +59,7 @@ nav .hamb{
     top: 60px;
     z-index: 5;
     background: black;
-    position: absol;
+    position: absolute;
     cursor: pointer;
     display: none;
 }
@@ -208,10 +208,10 @@ span{
     nav .hamb{
         display: block;
         background: none;
-        
     }
 
     .click{
+        position: absolute;
         top: 46px;
     }
 
@@ -221,10 +221,12 @@ span{
     }
 
     .click span:first-child{
+        top: 0;
         transform: rotate(-40deg);
     }
 
     .click span:nth-child(2){
+        top: 0;
         opacity: 0;
         margin: 0;
     }
@@ -256,7 +258,7 @@ span{
         display: block;
         text-align: center;
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 400; 
         margin-left: 0;
         margin-bottom: 40px;
 
